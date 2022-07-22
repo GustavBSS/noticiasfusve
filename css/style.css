@@ -12,7 +12,7 @@ body{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background: #1D212B;
+	background: #66000000;
 }
 	
 .img-slider{
@@ -20,7 +20,7 @@ body{
 	width: 800px;
 	height: 500px;
 	margin: 10px;
-	background: #D212B;
+	background: #66000000;
 }
 
 .img-slider .slide{
