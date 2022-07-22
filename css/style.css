@@ -76,8 +76,8 @@ body{
 
 .img-slider .navigation .btn{
 	background: rgba(255, 255, 255, 0.5);
-	width: 30px;
-	height: 30px;
+	width: 12px;
+	height: 12px;
 	margin: 10px;
 	border-radius: 50%;
 	cursor: pointer;
