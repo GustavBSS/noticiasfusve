@@ -1,0 +1,58 @@
+
+
+
+.textohubfusve{
+    margin-bottom: 70px;
+}
+
+.poligonos{
+    text-align: center;
+    padding-right: 60px;
+  }
+  
+  .polig1, .polig2,   .polig3, .polig4, .polig5 {
+      margin-top: 27px;
+  }
+  .botao {
+   height: 100%;
+     width: 100%;
+     width: 120px;
+     height: 60px;
+     background: rgb(61, 113, 255);
+     position: relative;
+     display: inline-block;
+  }
+  .botao:before {
+     content: "";
+     position: absolute;
+     top: -25px;
+     left: 0;
+     width: 0;
+     height: 0;
+     border-left: 60px solid transparent;
+     border-right: 60px solid transparent;
+     border-bottom: 25px solid rgb(61, 113, 255);
+  }
+  .botao:after {
+     content: "";
+     position: absolute;
+     bottom: -25px;
+     left: 0;
+     width: 0;
+     height: 0;
+     border-left: 60px solid transparent;
+     border-right: 60px solid transparent;
+     border-top: 25px solid rgb(61, 113, 255);
+  }
+  .img{
+   height: 100%;
+   width: 100%;
+   width: 120px;
+   height: 60px;
+  }
+
+  .botao:hover{
+    transform: translateY(-3px);
+  }
+
+ 
